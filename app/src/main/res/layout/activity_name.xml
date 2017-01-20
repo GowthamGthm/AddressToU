@@ -1,0 +1,30 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.addresstou.NameActivity">
+
+    <!-- Login progress -->
+
+    <Button
+        android:text="@string/Enter"
+        android:layout_width="315dp"
+        android:layout_height="108dp"
+        android:id="@+id/button"
+        tools:layout_editor_absoluteY="318dp"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="395dp"
+        android:layout_height="48dp"
+        android:hint="@string/enter_your_name"
+        android:scrollbarSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="168dp">
+
+    </android.support.design.widget.TextInputLayout>
+</android.support.constraint.ConstraintLayout>
